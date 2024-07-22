@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+  margin-top: -20px;
+  font-size: 20px;
+}
+button{
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  background: linear-gradient(to left, #cff695, #61d7b9, #06bed8);
+  color:#fff;
+  border:none;
+  position:relative;
+  height:45px;
+  width: auto;
+  font-size:20px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin: 0px 20px;
+}
+button:hover{
+  background:#fff;
+  color:#000;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: linear-gradient(to left, #cff695, #61d7b9, #06bed8);
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+h5{
+  color: #1f6d59; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+lottie-player{
+  margin-top: 20px;
+}
+

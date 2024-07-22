@@ -1,0 +1,88 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table .judul{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table .judul th{
+    padding: 15px;
+}
+.styled-table .isi td {
+    padding: 15px 10px;
+}
+
+.styled-table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tr:last-of-type {
+    border-bottom: 5px solid #009879;
+}
+
+/* Button */
+button{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    background: #009879;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:30px;
+    width: auto;
+    font-size:16px;
+    padding:0px 20px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin: 5px 8px;
+  }
+button:hover{
+    background:#fff;
+    color:#000;
+  }
+button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #009879;
+    transition:400ms ease all;
+  }
+button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+#keyword{
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+
+#keyword{
+    border: 3px solid #009879;
+    padding: 6px 15px;
+    outline: none;
+    border-radius: 15px;
+    width: 450px;
+  }
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f6d59;
+    margin-top: 25px;
+    font-size: 35px;
+}

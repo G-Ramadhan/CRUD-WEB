@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    margin-top: 3%;
+    font-size: 30px;
+}
+h5{
+    color: #1f6d59; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+}
+lottie-player{
+    margin-top: -20px;
+    margin-bottom: -35px;
+}
+.glass{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 470px;
+    background: rgba( 0, 152, 121, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    background: #fff;
+    color:#000;
+    border:none;
+    height:30px;
+    width: auto;
+    position: relative;
+    font-size:14px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:400ms ease all;
+    outline:none;
+    margin: 0px 10px;
+}
+button:hover{
+    background:#2ed691;
+    color:#fff;
+    border-radius: 0px;
+}
+button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f4ff5e;
+    transition:400ms ease all;
+}
+button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+form table{
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    background: rgba( 255, 255, 255, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#simpan{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    background: #fff;
+    color:#000;
+    border:none;
+    height:30px;
+    width: auto;
+    position: relative;
+    font-size:14px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:400ms ease all;
+    outline:none;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+#simpan:hover{
+    background:#2ed691;
+    color:#fff;
+    border-radius: 0px;
+}
